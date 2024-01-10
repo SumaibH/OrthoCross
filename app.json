@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "OrthoCross",
+    "slug": "OrthoCross",
+    "version": "1.0.0",
+    "orientation": [
+      "landscape-left"
+    ],
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#343434"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#343434"
+      },
+      "package": "com.umarsaleem1.OrthoCross"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e1bda7a9-9771-4c95-b0be-b6f33fa698b2"
+      }
+    }
+  }
+}
